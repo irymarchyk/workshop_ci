@@ -32,4 +32,3 @@ target_link_libraries(test_hello
     hello
     ${CONAN_LIBS}
 )
-

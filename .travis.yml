@@ -2,7 +2,7 @@ language: cpp
 dist: trusty
 
 sudo: required
-bef+ore_install:
+before_install:
   - eval "${MATRIX_EVAL}"
 
 install:

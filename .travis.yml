@@ -9,4 +9,4 @@ script:
   - conan install .. --build=missing
   - cmake ../
   - cmake --build .
-  - ./workshop_ci
+  - ./bin/test_hello

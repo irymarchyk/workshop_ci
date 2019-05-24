@@ -1,6 +1,8 @@
-#include <iostream>
+#include "hello.hpp"
 
-int main()
+std::ostream& hello::greetings(std::ostream &stream)
 {
-    std::cout << "Hello !" << std::endl;
+    stream << "hello" << std::endl;
+
+    return stream;
 }
